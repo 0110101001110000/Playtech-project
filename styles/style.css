@@ -2,16 +2,45 @@
 
 /* Global ------------------------------------------------------------------ */
 
-body {
-  background-color: white;
+h1, h2 {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+a {
+  font-family: "Open Sans";
+  text-decoration: none;
 }
 
 
 /* Page Header ------------------------------------------------------------- */
 
 /* Navbar */
+header h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0BD8FE;
+}
+
+header a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a5a5a5;
+  transition: .5s;
+}
+header a:hover {
+  color: black;
+}
 
 /* Presentation */
+header .video-filter {
+  background-color: black;
+  filter: alpha(opacity=25);
+  opacity: 0.35;
+}
 
 
 /* Page Main --------------------------------------------------------------- */
