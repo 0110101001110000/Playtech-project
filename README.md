@@ -1,4 +1,4 @@
-# Cybersafeblog-project
+# PlayTech-project
 
 Welcome to the *PlayTechProject* repository!
 Below, there's a simple tutorial to help you run this project on your machine!
