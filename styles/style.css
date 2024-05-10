@@ -2,36 +2,40 @@
 
 /* Global ------------------------------------------------------------------ */
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
+  font-weight: 900; 
 }
 
 p {
   font-family: "Open Sans";
+  font-weight: 400;
 }
 
 a {
   font-family: "Open Sans";
   text-decoration: none;
+  font-weight: 400;
 }
 
 
 /* Page Header ------------------------------------------------------------- */
 
 /* Navbar */
-header h1 {
-  font-size: 20px;
-  font-weight: 800;
+header .title-container a {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #0BD8FE;
 }
 
-header a {
-  font-size: 16px;
+header .link-container a {
+  font-size: 1rem;
   font-weight: 400;
-  color: #a5a5a5;
+  color: #8f8f8f;
   transition: .5s;
 }
-header a:hover {
+header .link-container a:hover {
   color: black;
 }
 
@@ -39,7 +43,7 @@ header a:hover {
 header .video-filter {
   background-color: black;
   filter: alpha(opacity=25);
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 
@@ -47,6 +51,14 @@ header .video-filter {
 
 
 /* Advantages Section */
+#advantages h3 {
+  font-size: 1.5rem;
+}
+
+#advantages p {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
 
 /* Portifolios Section */
 

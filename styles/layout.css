@@ -30,11 +30,19 @@ header .logo {
 }
 
 header .title-container {
-  margin-left: 15px;
+  margin-left: 20px;
+}
+
+header .title-container a {
+  padding: 8px;
 }
 
 header .link-container {
   margin-left: 10px;
+}
+
+header .link-container a {
+  padding: 8px;
 }
 
 /* Presentation */
@@ -71,15 +79,15 @@ header .presentation-video-container video {
 
 /* Advantages Section */
 #advantages .container{
-  padding: 100px 15vw;
+  padding: 7vw 15vw;
   text-align: center;
 }
 
 #advantages .icon {
-  width: 256px;
+  width: 128px;
 }
 
-#advantages h2 {
+#advantages h3 {
   margin-top: 25px;
 }
 
@@ -89,7 +97,7 @@ header .presentation-video-container video {
 
 /* Portifolios Section */
 #portifolios .container {
-  padding: 100px 0;
+  padding: 7vw 0;
 }
 
 #portifolios .cards-container {
