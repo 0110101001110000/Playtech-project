@@ -2,24 +2,104 @@
 
 /* Global ------------------------------------------------------------------ */
 
-body {
+
+* {
   margin: 0;
+}
+
+.sbs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 
 /* Page Header ------------------------------------------------------------- */
 
 /* Navbar */
+header .container {
+  padding-bottom: 100px;
+}
+
+header .nav-container {
+  padding: 20px 5vw;
+}
+
+header .logo {
+  width: 50px;
+}
+
+header .title-container {
+  margin-left: 15px;
+}
+
+header .link-container {
+  margin-left: 10px;
+}
 
 /* Presentation */
+header .presentation-video-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+header .presentation-video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 /* Page Main --------------------------------------------------------------- */
 
 
 /* Advantages Section */
+#advantages .container{
+  padding: 100px 15vw;
+  text-align: center;
+}
+
+#advantages .icon {
+  width: 256px;
+}
+
+#advantages h2 {
+  margin-top: 25px;
+}
+
+#advantages p {
+  margin-top: 10px;
+}
 
 /* Portifolios Section */
+#portifolios .container {
+  padding: 100px 0;
+}
+
+#portifolios .cards-container {
+  width: 70vw;
+}
+
+#portifolios .text-container {
+  margin-left: 5vw;
+}
+
+#portifolios .text-container p {
+  margin-top: 25px;
+}
+
+#portifolios .button {
+  margin-top: 25px;
+}
 
 /* Prices Section */
 
