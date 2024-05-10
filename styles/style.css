@@ -61,6 +61,39 @@ header .video-filter {
 }
 
 /* Portifolios Section */
+#portifolios .container {
+  background-color: #0BD8FE;
+}
+
+#portifolios img {
+  border-radius: 1rem;
+}
+
+#portifolios .text-container h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+#portifolios .text-container p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#portifolios .text-container .button {
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color:#000000;
+  background: #ffffff;
+  transition: .5s;
+}
+#portifolios .text-container .button:hover {
+  background: #c6c7c8;
+}
 
 /* Prices Section */
 

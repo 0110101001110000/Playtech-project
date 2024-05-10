@@ -114,6 +114,8 @@ header .presentation-video-container video {
 
 #portifolios .text-container .button {
   margin-top: 25px;
+  padding: 10px 22.5px;
+  display: inline-block;
 }
 
 /* Prices Section */
