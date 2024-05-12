@@ -18,6 +18,17 @@ a {
   font-weight: 400;
 }
 
+ul li {
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+
+.listas-p1 .p1, .listas-p2 .p2, .listas-p3 .p3{
+  list-style: none;
+  padding: 10px;
+  padding-top: 15px;
+}
+
 
 /* Page Header ------------------------------------------------------------- */
 
@@ -116,6 +127,68 @@ header .video-filter {
 }
 
 /* Prices Section */
+.price-h1{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.h1-color{
+  background-color:#0BD8FE;
+  padding: 10px;
+}
+.plano-1{
+  text-align: center;
+  margin-left: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-1 .p1{
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+.listas-p1{
+  text-align: center;
+}
+
+
+.plano-2{
+  text-align: center;
+  margin-left: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-2 .p2{
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+.listas-p2{
+  text-align: center;
+}
+
+.plano-3{
+  text-align: center;
+  margin-right: 30px;
+  border: 1px solid #8f8f8f;
+}
+
+.plano-3 .p3{
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+.listas-p3{
+  text-align: center;
+}
+
+.price-plano-1 p{
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
 
 /* About Section */
 

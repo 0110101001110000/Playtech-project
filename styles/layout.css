@@ -13,6 +13,11 @@
   justify-content: space-between; 
 }
 
+.colum{
+  display: flex;
+  justify-content: space-between;
+}
+
 .spacer {
   flex-grow: 1;
 }
