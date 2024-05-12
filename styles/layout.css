@@ -100,12 +100,41 @@ header .presentation-video-container video {
   padding: 7vw 0;
 }
 
-#portifolios .cards-container {
+#portifolios ul {
+  padding: 0;
+}
+
+#portifolios .slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#portifolios .slides-container {
   width: 70vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+#portifolios .slides-container::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+}
+
+#portifolios .slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+#portifolios .slide-arrow {
+  width: 2rem;
+  height: 4rem;
+  padding: 0;
 }
 
 #portifolios .text-container {
-  margin-left: 5vw;
+  margin-left: 2.5vw;
 }
 
 #portifolios .text-container p {

@@ -65,6 +65,26 @@ header .video-filter {
   background-color: #0BD8FE;
 }
 
+#portifolios .slides-container {
+  list-style: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#portifolios .slide-arrow {
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  transition: .5s;
+}
+
+#portifolios .slide-arrow:hover {
+  color: #c6c7c8;
+}
+
 #portifolios img {
   border-radius: 1rem;
 }

@@ -24,9 +24,6 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/style.css">
 
-    <!-- Scripts -->
-    <script src="scripts/index.js"></script>
-
     <!-- Page Title -->
     <title>Home | PlayTech</title>
 
@@ -109,47 +106,49 @@
         <div class="sbs container">
           <div class="spacer"></div>
           <div>
-            <a href=""><p><</p></a>
+            <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
           </div>
           <div class="spacer"></div>
-          <div class="sbs cards-container">
-            <div class="sbs card">
-              <div><img src="assets/images/space-ship.png" alt="Quantum-quest-game-image"></div>
-              <div class="text-container">
-                <h2>Quantum Quest: A Fronteira do Infinito</h2>
-                <p>Em Quantum Quest, mergulhe em uma aventura espacial de proporções épicas. Como capitão de uma nave estelar de última geração, você explorará os confins do universo, enfrentando perigos cósmicos e descobrindo segredos inimagináveis. Com gráficos deslumbrantes e um sistema de jogo inovador, cada decisão que você tomar influenciará o destino da galáxia. Prepare-se para embarcar nesta jornada intergaláctica onde a coragem e a inteligência são as chaves para a sobrevivência.</p>
-                <button class="button">
-                  <i class="fa-solid fa-share"></i>
-                  Saiba Mais!
-                </button>
-              </div>
-            </div>
-            <!-- <div class="sbs card">
-              <div><img src="assets/images/magician.png" alt="Reinos-da-magia-game-image"></div>
-              <div class="text-container">
-                <h2>Reinos da Magia: A Ascensão do Feiticeiro</h2>
-                <p>Em Reinos da Magia, entre em um mundo de fantasia repleto de magia e mistério. Como um jovem feiticeiro em treinamento, você embarcará em uma jornada para dominar os segredos arcanos e proteger os reinos da escuridão iminente. Explore paisagens deslumbrantes, encontre criaturas lendárias e enfrente desafios épicos enquanto desvenda a história ancestral deste mundo encantado.</p>
-                <button class="button">
-                  <i class="fa-solid fa-share"></i>
-                  Saiba Mais!
-                </button>
-              </div>
-            </div>
-            <div class="sbs card">
-              <div><img src="assets/images/robots.png" alt="Guerra-das-maquinas-game-image"></div>
-              <div class="text-container">
-                <h2>Guerra das Máquinas: Revolução Cibernética</h2>
-                <p>Em Guerra das Máquinas, prepare-se para um confronto épico entre humanos e máquinas em um futuro distópico. Como líder da resistência humana, você enfrentará hordas de robôs implacáveis em uma batalha pela sobrevivência da humanidade. Com gráficos realistas e uma jogabilidade intensa, cada movimento que você fizer determinará o destino da guerra. Esteja pronto para lutar pela liberdade ou sucumbir à dominação das máquinas.</p>
-                <button class="button">
-                  <i class="fa-solid fa-share"></i>
-                  Saiba Mais!
-                </button>
-              </div>
-            </div> -->
+          <div class="slider-wrapper">
+            <ul class="sbs slides-container" id="slides-container">
+              <li class="sbs slide">
+                <div><img src="assets/images/space-ship.png" alt="Quantum-quest-game-image"></div>
+                <div class="text-container">
+                  <h2>Quantum Quest: A Fronteira do Infinito</h2>
+                  <p>Em Quantum Quest, mergulhe em uma aventura espacial de proporções épicas. Como capitão de uma nave estelar de última geração, você explorará os confins do universo, enfrentando perigos cósmicos e descobrindo segredos inimagináveis. Com gráficos deslumbrantes e um sistema de jogo inovador, cada decisão que você tomar influenciará o destino da galáxia. Prepare-se para embarcar nesta jornada intergaláctica onde a coragem e a inteligência são as chaves para a sobrevivência.</p>
+                  <button class="button">
+                    <i class="fa-solid fa-share"></i>
+                    Saiba Mais!
+                  </button>
+                </div>
+              </li>
+              <li class="sbs slide">
+                <div><img src="assets/images/magician.png" alt="Reinos-da-magia-game-image"></div>
+                <div class="text-container">
+                  <h2>Reinos da Magia: A Ascensão do Feiticeiro</h2>
+                  <p>Em Reinos da Magia, entre em um mundo de fantasia repleto de magia e mistério. Como um jovem feiticeiro em treinamento, você embarcará em uma jornada para dominar os segredos arcanos e proteger os reinos da escuridão iminente. Explore paisagens deslumbrantes, encontre criaturas lendárias e enfrente desafios épicos enquanto desvenda a história ancestral deste mundo encantado.</p>
+                  <button class="button">
+                    <i class="fa-solid fa-share"></i>
+                    Saiba Mais!
+                  </button>
+                </div>
+              </li>
+              <li class="sbs slide">
+                <div><img src="assets/images/robots.png" alt="Guerra-das-maquinas-game-image"></div>
+                <div class="text-container">
+                  <h2>Guerra das Máquinas: Revolução Cibernética</h2>
+                  <p>Em Guerra das Máquinas, prepare-se para um confronto épico entre humanos e máquinas em um futuro distópico. Como líder da resistência humana, você enfrentará hordas de robôs implacáveis em uma batalha pela sobrevivência da humanidade. Com gráficos realistas e uma jogabilidade intensa, cada movimento que você fizer determinará o destino da guerra. Esteja pronto para lutar pela liberdade ou sucumbir à dominação das máquinas.</p>
+                  <button class="button">
+                    <i class="fa-solid fa-share"></i>
+                    Saiba Mais!
+                  </button>
+                </div>
+              </li>
+            </ul>
           </div>
           <div class="spacer"></div>
           <div>
-            <a href=""><p>></p></a>
+            <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
           </div>
           <div class="spacer"></div>
         </div>
@@ -171,6 +170,9 @@
     
     <!-- Page Footer -->
     <footer></footer>
+
+    <!-- Scripts -->
+    <script src="scripts/index.js"></script>
 
   </body>
 
