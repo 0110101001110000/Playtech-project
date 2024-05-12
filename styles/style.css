@@ -130,7 +130,7 @@ header .video-filter {
 }
 
 #prices .plano-1{
-  border: 1px solid #e9ecef;
+  border: 2px solid #dee2e6;
   border-radius: .5rem;
 }
 
@@ -154,7 +154,7 @@ header .video-filter {
 
 
 #prices .plano-2{
-  border: 1px solid #e9ecef;
+  border: 2px solid #dee2e6;
   border-radius: .5rem;
 }
 
@@ -169,7 +169,7 @@ header .video-filter {
 }
 
 #prices .plano-3{
-  border: 1px solid #e9ecef;
+  border: 2px solid #dee2e6;
   border-radius: .5rem;
   font-size: 1rem;
 }
