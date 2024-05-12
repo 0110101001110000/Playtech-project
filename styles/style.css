@@ -130,16 +130,16 @@ header .video-filter {
 }
 
 #prices .plano-1{
-  border: 1px solid #8f8f8f;
+  border: 1px solid #e9ecef;
   border-radius: .5rem;
 }
 
 #prices .title{
   padding: 25px;
   font-size: 1.5rem;
-  color: white;
+  color: black;
   border-radius: .5rem .5rem 0 0;
-  background-color:#0BD8FE;
+  background-color:#e9ecef;
 }
 
 #prices .plano-1 .p1{
@@ -154,7 +154,7 @@ header .video-filter {
 
 
 #prices .plano-2{
-  border: 1px solid #8f8f8f;
+  border: 1px solid #e9ecef;
   border-radius: .5rem;
 }
 
@@ -169,7 +169,7 @@ header .video-filter {
 }
 
 #prices .plano-3{
-  border: 1px solid #8f8f8f;
+  border: 1px solid #e9ecef;
   border-radius: .5rem;
   font-size: 1rem;
 }
@@ -186,12 +186,13 @@ header .video-filter {
 #prices .plan-price p{
   padding-top: 20px;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 #prices .fplan-button, #prices .splan-button, #prices .tplan-button {
-  margin: 20px 0;
+  margin: 20px;
   padding: 10px 22.5px;
+  width: 18vw;
   display: inline-block;
   font-family: "Open Sans";
   font-size: 1.25rem;
