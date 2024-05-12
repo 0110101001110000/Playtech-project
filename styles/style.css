@@ -18,21 +18,10 @@ a {
   font-weight: 400;
 }
 
-ul li {
-  font-family: "Open Sans";
-  font-weight: 500;
-}
-
-.listas-p1 .p1, .listas-p2 .p2, .listas-p3 .p3{
-  list-style: none;
-  padding: 10px;
-  padding-top: 15px;
-}
-
 
 /* Page Header ------------------------------------------------------------- */
 
-/* Navbar */
+/* Navbar (João Paulo) */
 header .title-container a {
   font-family: "Montserrat";
   font-size: 1.5rem;
@@ -50,7 +39,7 @@ header .link-container a:hover {
   color: black;
 }
 
-/* Presentation */
+/* Presentation (João Paulo) */
 header .video-filter {
   background-color: black;
   filter: alpha(opacity=25);
@@ -61,7 +50,7 @@ header .video-filter {
 /* Page Main --------------------------------------------------------------- */
 
 
-/* Advantages Section */
+/* Advantages Section (João Paulo) */
 #advantages h3 {
   font-size: 1.5rem;
 }
@@ -71,7 +60,7 @@ header .video-filter {
   color: #8f8f8f;
 }
 
-/* Portifolios Section */
+/* Portifolios Section (João Paulo) */
 #portifolios .container {
   background-color: #0BD8FE;
 }
@@ -126,69 +115,120 @@ header .video-filter {
   background: #c6c7c8;
 }
 
-/* Prices Section */
-.price-h1{
-  text-align: center;
-  padding: 20px;
-
+/* Prices Section (Matheus) */
+#prices li {
+  font-family: "Open Sans";
 }
 
-.h1-color{
+#prices ul {
+  padding-left: 0;
+}
+
+#prices .p1, #prices .p2, #prices .p3{
+  list-style: none;
+  margin-top: 15px;
+}
+
+#prices .plano-1{
+  border: 1px solid #8f8f8f;
+  border-radius: .5rem;
+}
+
+#prices .title{
+  padding: 25px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: .5rem .5rem 0 0;
   background-color:#0BD8FE;
-  padding: 10px;
-}
-.plano-1{
-  text-align: center;
-  margin-left: 30px;
-  border: 1px solid #8f8f8f;
 }
 
-.plano-1 .p1{
+#prices .plano-1 .p1{
   font-weight: 400;
   color: #8f8f8f;
+  font-size: 1rem;
 }
 
-.listas-p1{
-  text-align: center;
+#prices .listas-p1{
+  padding: 0 25px;
 }
 
 
-.plano-2{
-  text-align: center;
-  margin-left: 30px;
+#prices .plano-2{
   border: 1px solid #8f8f8f;
+  border-radius: .5rem;
 }
 
-.plano-2 .p2{
+#prices .plano-2 .p2{
   color: #8f8f8f;
   font-weight: 400;
+  font-size: 1rem;
 }
 
-.listas-p2{
-  text-align: center;
+#prices .listas-p2{
+  padding: 0 25px;
 }
 
-.plano-3{
-  text-align: center;
-  margin-right: 30px;
+#prices .plano-3{
   border: 1px solid #8f8f8f;
+  border-radius: .5rem;
+  font-size: 1rem;
 }
 
-.plano-3 .p3{
+#prices .plano-3 .p3{
   color: #8f8f8f;
   font-weight: 400;
 }
 
-.listas-p3{
-  text-align: center;
+#prices .listas-p3{
+  padding: 0 25px;
 }
 
-.price-plano-1 p{
+#prices .plan-price p{
   padding-top: 20px;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
+#prices .fplan-button, #prices .splan-button, #prices .tplan-button {
+  margin: 20px 0;
+  padding: 10px 22.5px;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#prices .fplan-button {
+  border: black 1px solid;
+  background: transparent;
+}
+#prices .fplan-button:hover {
+  color: white;
+  background: black;
+}
+
+#prices .splan-button {
+  font-weight: 900;
+  border: black 1px solid;
+  background: transparent;
+}
+#prices .splan-button:hover {
+  color: white;
+  background: black;
+}
+
+#prices .tplan-button {
+  font-weight: 900;
+  border: none;
+  color: white;
+  background: black;
+}
+#prices .tplan-button:hover {
+  background: #565656;
+}
 
 /* About Section */
 

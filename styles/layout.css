@@ -153,6 +153,10 @@ header .presentation-video-container video {
 }
 
 /* Prices Section */
+#prices .container {
+  padding: 7vw 15vw;
+  text-align: center;
+}
 
 /* About Section */
 
