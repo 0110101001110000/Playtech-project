@@ -2,7 +2,7 @@
 
 /* Global ------------------------------------------------------------------ */
 
-body {
+html {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -33,13 +33,14 @@ header .title-container a {
   color: #0BD8FE;
 }
 
-header .link-container a {
+header .link-container p {
   font-size: 1rem;
   font-weight: 400;
   color: #8f8f8f;
   transition: .5s;
+  cursor: pointer;
 }
-header .link-container a:hover {
+header .link-container p:hover {
   color: black;
 }
 
