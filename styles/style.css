@@ -234,39 +234,34 @@ header .video-filter {
 }
 
 /* About Section */
-.img-left img , .txt-PlayTech{
+#about .img-container img , .txt-PlayTech{
   display: inline-block;
 }
 
-section .conteiner-PlayTech{
-  display: flex;
+#about .conteiner{
   background-color: #0BD8FE;
+  padding: 7% 15%;
 }
 
 
-.conteiner-PlayTech .img-left img{
+#about .img-container img{
   width: 512px;
-  padding: 180px 0 160px 200px;
 }
 
-.txt-PlayTech{
-  margin-top: 10%;
-  margin-right: 200px;
-  padding-left: 50px;
-  justify-content: center;
+#about .txt-PlayTech{
+  margin-left: 2.5vw;
 }
 
-.txt-PlayTech .txt-h2{
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: 900;
+#about .txt-PlayTech .txt-h2{
+  color: white;
+  font-size: 3rem;
 }
 
-.txt-PlayTech .txt-simples{
+#about .txt-PlayTech .txt-simples{
   margin: 25px 0 0;
   text-align: justify;
-  color: #ffffff;
-  font-size: 24px;
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* Testimonials Section */
