@@ -232,8 +232,8 @@ header .video-filter {
 }
 
 /* About Section */
-#about .img-container img , .txt-PlayTech{
-  display: inline-block;
+#about .img-container img {
+  border-radius: 1rem;
 }
 
 #about .conteiner{
