@@ -44,6 +44,17 @@ header .link-container p:hover {
   color: black;
 }
 
+header .link-container a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f;
+  transition: .5s;
+  cursor: pointer;
+}
+header .link-container a:hover {
+  color: black;
+}
+
 /* Presentation (João Paulo) */
 header .video-filter {
   background-color: black;

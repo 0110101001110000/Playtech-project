@@ -50,6 +50,10 @@ header .link-container p {
   padding: 8px;
 }
 
+header .link-container a {
+  padding: 8px;
+}
+
 /* Presentation */
 header .presentation-video-container {
   position: relative;
@@ -173,6 +177,10 @@ header .presentation-video-container video {
 /* Privacy Policy Page ----------------------------------------------------- */
 
 /* Main */
+header .link-container a {
+  padding: 8px;
+}
+
 #privacy-policy-main .container {
   margin: 0 calc(5% + 50px + 20px + 8px);
   text-align: justify;
