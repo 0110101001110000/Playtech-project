@@ -172,7 +172,6 @@ header .presentation-video-container video {
 
 /* Privacy Policy Page ----------------------------------------------------- */
 
-
 /* Main */
 #privacy-policy-main .container {
   margin: 0 calc(5% + 50px + 20px + 8px);
@@ -193,3 +192,29 @@ header .presentation-video-container video {
   margin-top: 1rem;
   font-size: 1rem;
 }
+
+
+/* Terms of usage Page ----------------------------------------------------- */
+
+/* Main */
+#terms-of-usage-main .container {
+  margin: 0 calc(5% + 50px + 20px + 8px);
+  text-align: justify;
+}
+
+#terms-of-usage-main h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#terms-of-usage-main h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#terms-of-usage-main p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+
