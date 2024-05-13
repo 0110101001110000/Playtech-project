@@ -132,6 +132,7 @@ header .video-filter {
 #prices .plano-1{
   border: 2px solid #dee2e6;
   border-radius: .5rem;
+  width: 30%;
 }
 
 #prices .title{
@@ -156,6 +157,7 @@ header .video-filter {
 #prices .plano-2{
   border: 2px solid #dee2e6;
   border-radius: .5rem;
+  width: 30%;
 }
 
 #prices .plano-2 .p2{
@@ -172,6 +174,7 @@ header .video-filter {
   border: 2px solid #dee2e6;
   border-radius: .5rem;
   font-size: 1rem;
+  width: 30%;
 }
 
 #prices .plano-3 .p3{
@@ -192,7 +195,6 @@ header .video-filter {
 #prices .fplan-button, #prices .splan-button, #prices .tplan-button {
   margin: 20px;
   padding: 10px 22.5px;
-  width: 18vw;
   display: inline-block;
   font-family: "Open Sans";
   font-size: 1.25rem;
@@ -232,6 +234,40 @@ header .video-filter {
 }
 
 /* About Section */
+.img-left img , .txt-PlayTech{
+  display: inline-block;
+}
+
+section .conteiner-PlayTech{
+  display: flex;
+  background-color: #0BD8FE;
+}
+
+
+.conteiner-PlayTech .img-left img{
+  width: 512px;
+  padding: 180px 0 160px 200px;
+}
+
+.txt-PlayTech{
+  margin-top: 10%;
+  margin-right: 200px;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.txt-PlayTech .txt-h2{
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.txt-PlayTech .txt-simples{
+  margin: 25px 0 0;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 24px;
+}
 
 /* Testimonials Section */
 
