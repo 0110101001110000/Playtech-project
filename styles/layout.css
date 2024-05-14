@@ -7,10 +7,6 @@
   margin: 0;
 }
 
-body {
-  min-width: 600px;
-}
-
 .sbs {
   display: flex;
   align-items: center;
@@ -94,17 +90,22 @@ header .presentation-video-container video {
 
 /* Mobile Screen */
 @media (max-width: 768px) {
-  #advantages .container{
-    padding: 7% 5%;
+  #advantages .container {
+    display: inline;
+    padding: 25% 5%;
     text-align: center;
+  }
+
+  #advantages .item-container {
+    margin-top: 10%;
   }
   
   #advantages .icon {
-    width: calc(128px / 1.5);
+    width: 128px;
   }
   
   #advantages h3 {
-    margin-top: calc(25px / 1.5);
+    margin-top: 20px;
   }
   
   #advantages p {
