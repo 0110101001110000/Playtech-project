@@ -87,27 +87,10 @@ header .video-filter {
   color: #8f8f8f;
 }
 
-/* Tablet Screen */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* Mobile Screen */
+@media (min-width: 769px) {
   #advantages h3 {
-    font-size: 1.5rem;
-  }
-  
-  #advantages p {
-    font-size: 1rem;
-    color: #8f8f8f;
-  }
-}
-
-/* Desktop Screen */
-@media (min-width: 1025px) {
-  #advantages h3 {
-    font-size: 1.5rem;
-  }
-  
-  #advantages p {
-    font-size: 1rem;
-    color: #8f8f8f;
+    font-size: 1.15rem;
   }
 }
 
@@ -163,6 +146,21 @@ header .video-filter {
 }
 #portifolios .text-container .button:hover {
   background: #c6c7c8;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #portifolios .mobile-title-container {
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
+  }
+  #portifolios .text-container p {
+    font-size: 1rem;
+  }
+  #portifolios .text-container .button {
+    font-size: 1rem;
+  }
 }
 
 /* Prices Section (Matheus) */

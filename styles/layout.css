@@ -139,21 +139,9 @@ header .presentation-video-container video {
   }
 }
 
-/* Tablet Screen */
-@media (min-width: 769px) and (max-width: 1024px) {
-  #advantages .container {
-    display: block;
-    padding: 100px 5%;
-  }
-
-  #advantages .margin-top {
-    margin-top: 50px;
-  }
-}
-
 /* Portifolios Section */
 #portifolios .container {
-  padding: 7vw 0;
+  padding: 7% 0;
 }
 
 #portifolios ul {
@@ -166,7 +154,7 @@ header .presentation-video-container video {
 }
 
 #portifolios .slides-container {
-  width: 70vw;
+  width: 70%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -189,6 +177,10 @@ header .presentation-video-container video {
   padding: 0;
 }
 
+#portifolios .mobile-title-container {
+  display: none;
+}
+
 #portifolios .text-container {
   margin-left: 2.5vw;
 }
@@ -202,6 +194,35 @@ header .presentation-video-container video {
   padding: 10px 22.5px;
   display: inline-block;
 }
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #portifolios .container {
+    padding: 100px 0;
+  }
+  #portifolios .slides-container {
+    width: 100%;
+    align-items: normal;
+  }
+  #portifolios .slide {
+    display: block;
+  }
+  #portifolios .mobile-title-container {
+    margin-bottom: 35px;
+    display: block;
+  }
+  #portifolios .slide img {
+    width: 100%;
+  }
+  #portifolios .text-container {
+    margin-left: 0;
+    text-align: center;
+  } 
+  #portifolios .text-container h2 {
+    display: none;
+  }
+}
+
 
 /* Prices Section */
 #prices .container {
