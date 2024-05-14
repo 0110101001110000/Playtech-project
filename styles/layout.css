@@ -87,49 +87,44 @@ header .presentation-video-container video {
 
 
 /* Advantages Section */
+#advantages .container{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#advantages .icon {
+  width: 128px;
+}
+
+#advantages h3 {
+  margin-top: 25px;
+}
+
+#advantages p {
+  margin-top: 10px;
+}
 
 /* Mobile Screen */
 @media (max-width: 768px) {
   #advantages .container {
-    display: inline;
-    padding: 25% 5%;
-    text-align: center;
+    display: block;
+    padding: 100px 5%;
   }
 
-  #advantages .item-container {
-    margin-top: 10%;
-  }
-  
-  #advantages .icon {
-    width: 128px;
-  }
-  
-  #advantages h3 {
-    margin-top: 20px;
-  }
-  
-  #advantages p {
-    margin-top: 10px;
+  #advantages .margin-top {
+    margin-top: 35px;
   }
 }
 
 /* Tablet Screen */
 @media (min-width: 769px) and (max-width: 1024px) {
-  #advantages .container{
-    padding: 7vw 15vw;
-    text-align: center;
+  #advantages .container {
+    display: block;
+    padding: 100px 5%;
   }
-  
-  #advantages .icon {
-    width: 128px;
-  }
-  
-  #advantages h3 {
-    margin-top: 25px;
-  }
-  
-  #advantages p {
-    margin-top: 10px;
+
+  #advantages .margin-top {
+    margin-top: 50px;
   }
 }
 

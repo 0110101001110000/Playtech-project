@@ -68,16 +68,13 @@ header .video-filter {
 
 /* Advantages Section (João Paulo) */
 
-/* Mobile Screen */
-@media (max-width: 768px) {
-  #advantages h3 {
-    font-size: 1.25rem;
-  }
+#advantages h3 {
+  font-size: 1.5rem;
+}
   
-  #advantages p {
-    font-size: 1rem;
-    color: #8f8f8f;
-  }
+#advantages p {
+  font-size: 1rem;
+  color: #8f8f8f;
 }
 
 /* Tablet Screen */
