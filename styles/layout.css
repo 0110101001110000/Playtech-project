@@ -27,7 +27,7 @@
 
 /* Navbar */
 header .nav-container {
-  padding: 20px 5vw;
+  padding: 20px 5%;
 }
 
 header .logo {
@@ -46,12 +46,35 @@ header .link-container {
   margin-left: 10px;
 }
 
-header .link-container p {
+header .link-container p, header .link-container a {
   padding: 8px;
 }
 
-header .link-container a {
-  padding: 8px;
+/* Mobile Screen */
+@media (max-width: 768px) {
+  header .nav-container {
+    padding: 10px 5%;
+  }
+  header .logo {
+    width: 35px;
+  }
+  header .title-container {
+    margin: 0;
+  }
+  header .title-container a {
+    padding: 5px;
+  }
+  header .link-container {
+    margin: 0;
+  }
+  header .link-container p, header .link-container a {
+    padding: 2.5px;
+  }
+}
+
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1024px) {
+
 }
 
 /* Presentation */
@@ -125,26 +148,6 @@ header .presentation-video-container video {
 
   #advantages .margin-top {
     margin-top: 50px;
-  }
-}
-
-/* Desktop Screen */
-@media (min-width: 1025px) {
-  #advantages .container{
-    padding: 7vw 15vw;
-    text-align: center;
-  }
-  
-  #advantages .icon {
-    width: 128px;
-  }
-  
-  #advantages h3 {
-    margin-top: 25px;
-  }
-  
-  #advantages p {
-    margin-top: 10px;
   }
 }
 

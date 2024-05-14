@@ -55,6 +55,16 @@ header .link-container a:hover {
   color: black;
 }
 
+/* Mobile Screen */
+@media (max-width: 768px) {
+  header .title-container a {
+    font-size: 1rem;
+  }
+  header .link-container p, header .link-container a {
+    font-size: .75rem;
+  }
+}
+
 /* Presentation (João Paulo) */
 header .video-filter {
   background-color: black;
