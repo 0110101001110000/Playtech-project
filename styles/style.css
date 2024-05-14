@@ -67,13 +67,41 @@ header .video-filter {
 
 
 /* Advantages Section (João Paulo) */
-#advantages h3 {
-  font-size: 1.5rem;
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #advantages h3 {
+    font-size: 1.25rem;
+  }
+  
+  #advantages p {
+    font-size: .75rem;
+    color: #8f8f8f;
+  }
 }
 
-#advantages p {
-  font-size: 1rem;
-  color: #8f8f8f;
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #advantages h3 {
+    font-size: 1.5rem;
+  }
+  
+  #advantages p {
+    font-size: 1rem;
+    color: #8f8f8f;
+  }
+}
+
+/* Desktop Screen */
+@media (min-width: 1025px) {
+  #advantages h3 {
+    font-size: 1.5rem;
+  }
+  
+  #advantages p {
+    font-size: 1rem;
+    color: #8f8f8f;
+  }
 }
 
 /* Portifolios Section (João Paulo) */

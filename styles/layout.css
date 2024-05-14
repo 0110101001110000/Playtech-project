@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+body {
+  min-width: 600px;
+}
+
 .sbs {
   display: flex;
   align-items: center;
@@ -87,21 +91,65 @@ header .presentation-video-container video {
 
 
 /* Advantages Section */
-#advantages .container{
-  padding: 7vw 15vw;
-  text-align: center;
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #advantages .container{
+    padding: 7% 5%;
+    text-align: center;
+  }
+  
+  #advantages .icon {
+    width: calc(128px / 1.5);
+  }
+  
+  #advantages h3 {
+    margin-top: calc(25px / 1.5);
+  }
+  
+  #advantages p {
+    margin-top: 10px;
+  }
 }
 
-#advantages .icon {
-  width: 128px;
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #advantages .container{
+    padding: 7vw 15vw;
+    text-align: center;
+  }
+  
+  #advantages .icon {
+    width: 128px;
+  }
+  
+  #advantages h3 {
+    margin-top: 25px;
+  }
+  
+  #advantages p {
+    margin-top: 10px;
+  }
 }
 
-#advantages h3 {
-  margin-top: 25px;
-}
-
-#advantages p {
-  margin-top: 10px;
+/* Desktop Screen */
+@media (min-width: 1025px) {
+  #advantages .container{
+    padding: 7vw 15vw;
+    text-align: center;
+  }
+  
+  #advantages .icon {
+    width: 128px;
+  }
+  
+  #advantages h3 {
+    margin-top: 25px;
+  }
+  
+  #advantages p {
+    margin-top: 10px;
+  }
 }
 
 /* Portifolios Section */
@@ -201,8 +249,17 @@ header .link-container a {
   font-size: 1rem;
 }
 
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #privacy-policy-main .container {
+    margin: 0 calc(5%);
+    text-align: justify;
+  }
+}
+
 
 /* Terms of usage Page ----------------------------------------------------- */
+
 
 /* Main */
 #terms-of-usage-main .container {
@@ -225,4 +282,17 @@ header .link-container a {
   font-size: 1rem;
 }
 
+/* Mobile Screen */
+@media (max-width: 768px) {
 
+}
+
+/* Tablet Screen */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Desktop Screen */
+@media (min-width: 1025px) {
+
+}
