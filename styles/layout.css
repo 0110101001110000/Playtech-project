@@ -306,6 +306,49 @@ header .presentation-video-container video {
 }
 
 /* About Section */
+#about .conteiner {
+  padding: 7% 15%;
+}
+
+#about .mobile-txt-container {
+  display: none;
+}
+
+#about .img-container img {
+  width: 512px;
+}
+
+#about .txt-PlayTech {
+  margin-left: 2.5vw;
+}
+
+#about .txt-PlayTech .txt-simples {
+  margin: 25px 0 0;
+}
+
+@media (max-width: 768px) {
+  #about .conteiner {
+    padding: 100px 5%;
+    display: block;
+  }
+  #about .mobile-txt-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #about .img-container img {
+    width: 100%;
+  }
+  #about .txt-PlayTech {
+    margin-left: 0;
+  }
+  #about .txt-PlayTech .txt-h2{
+    display: none;
+  } 
+  #about .txt-PlayTech .txt-simples {
+    margin: 15px 0 0;
+  }
+}
 
 /* Testimonials Section */
 
