@@ -197,9 +197,8 @@ header .video-filter {
   font-size: 1rem;
 }
 
-#prices .plan-price p{
-  font-weight: 900;
-  font-size: 2.5rem;
+#prices .plan-price h2 {
+  font-size: 2rem;
 }
 
 #prices .fplan-button, 
@@ -315,7 +314,7 @@ header .video-filter {
 
 /* Contact Section (Carlos) */    
 #contact {
-  background-color: #DCDCDC;
+  background-color: #4480BA;
 }
 
 #contact .info-item, #contact .form {
@@ -324,17 +323,17 @@ header .video-filter {
 
 #contact h2 {
   font-size: 3rem;
-  color: #6b6b6b;
+  color: white;
 }
 
 #contact h3 {
   font-size: 1.5rem;
-  color: #6b6b6b;
+  color: white;
 }
 
 #contact p {
   font-size: 1rem;
-  color: #8f8f8f;
+  color: white;
 }
 
 #contact input, #contact textarea {
@@ -363,18 +362,18 @@ header .video-filter {
 
 /* Footer (Carlos) */
 footer {
-  background-color: #4480BA;
+  background-color: white;
 }
 
 footer p,
 footer a {
   font-size: 1rem;
-  color:#DCDCDC;
+  color:#8f8f8f;
   transition: .5s;
 }
 footer p:hover,
 footer a:hover {
-  color: white;
+  color: #363636;
 }
 
 
