@@ -23,7 +23,7 @@
 
 /* Page Header ------------------------------------------------------------- */
 
-/* Navbar */
+/* Navbar (João Paulo) */
 header .nav-container {
   padding: 20px 5%;
 }
@@ -70,12 +70,7 @@ header .link-container p, header .link-container a {
   }
 }
 
-/* Tablet Screen */
-@media (min-width: 769px) and (max-width: 1024px) {
-
-}
-
-/* Presentation */
+/* Presentation (João Paulo) */
 header .presentation-video-container {
   position: relative;
   width: 100%;
@@ -107,7 +102,7 @@ header .presentation-video-container video {
 /* Page Main --------------------------------------------------------------- */
 
 
-/* Advantages Section */
+/* Advantages Section (João Paulo) */
 #advantages .container{
   padding: 7% 15%;
   text-align: center;
@@ -137,7 +132,7 @@ header .presentation-video-container video {
   }
 }
 
-/* Portifolios Section */
+/* Portifolios Section (João Paulo) */
 #portifolios .container {
   padding: 7% 0;
 }
@@ -222,7 +217,7 @@ header .presentation-video-container video {
 }
 
 
-/* Prices Section */
+/* Prices Section (Matheus) */
 #prices .container {
   padding: 7% 15%;
   text-align: center;
@@ -303,7 +298,7 @@ header .presentation-video-container video {
   }
 }
 
-/* About Section */
+/* About Section (Matheus) */
 #about .conteiner {
   padding: 7% 15%;
 }
@@ -324,6 +319,7 @@ header .presentation-video-container video {
   margin: 25px 0 0;
 }
 
+/* Mobile Screen */
 @media (max-width: 768px) {
   #about .conteiner {
     padding: 50px 5%;
@@ -349,71 +345,72 @@ header .presentation-video-container video {
 }
 
 
-/* Testimonials Section */
-#testimonials {
-  padding: 5rem 10%;
-}
-
+/* Testimonials Section (Carlos) */
 #testimonials .container {
-  padding: 0 10%;
-}
-
-#testimonials .card {
-  max-width: 250px;
+  padding: 7% 15%;
+  text-align: center;
 }
 
 #testimonials img {
-  width: 100%;
+  width: 128px;
 }
 
 #testimonials h3 {
-  margin: 1.5rem 0 0 0;
+  margin-top: 25px;
 }
 
 #testimonials p {
-  margin: 1rem 0 0 0;
+  margin-top: 10px;
 }
 
-/* Contact Section */ 
-#contact {
-  padding: 5rem 10%;
+#testimonials span {
+  margin-left: 10px;
 }
 
+#testimonials i {
+  margin-right: 5px;
+}
+
+/* Contact Section (Carlos) */ 
 #contact .container {
-  width: 80%;
-  margin: 20px auto;
-  padding: 0 10%;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  padding: 7% 15%;
+}
+
+#contact h2 {
+  margin-bottom: 25px;
 }
 
 #contact h3 {
-  margin-top: 0;
+  margin-top: 15px;
+}
+
+#contact p {
+  margin-top: 10px;
 }
 
 #contact input, #contact textarea {
-  width: 100%;
+  width: calc(100% - 22px);
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
 }
 
 #contact button {
-  padding: 10px 20px;
+  padding: 10px 22.5px;
+  display: inline-block;
 }   
-
 
 /* Page Footer ------------------------------------------------------------- */
 
-/* Footer */
+/* Footer (Carlos) */
 footer {
-  padding: 5rem 10%;
+  padding: 7% 10%;
 }
 
 
 /* Privacy Policy Page ----------------------------------------------------- */
 
-/* Main */
+/* Main (João Paulo) */
 header .link-container a {
   padding: 8px;
 }
@@ -450,7 +447,7 @@ header .link-container a {
 /* Terms of usage Page ----------------------------------------------------- */
 
 
-/* Main */
+/* Main (João Paulo) */
 #terms-of-usage-main .container {
   margin: 0 calc(5% + 50px + 20px + 8px);
   text-align: justify;
