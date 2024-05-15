@@ -88,7 +88,7 @@ header .video-filter {
 }
 
 /* Mobile Screen */
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   #advantages h3 {
     font-size: 1.15rem;
   }
@@ -164,82 +164,48 @@ header .video-filter {
 }
 
 /* Prices Section (Matheus) */
-#prices ul {
-  padding-left: 0;
-}
-
 #prices .p1, #prices .p2, #prices .p3{
   list-style: none;
-  margin-top: 15px;
 }
 
 #prices .plano-1{
   border: 2px solid #dee2e6;
   border-radius: .5rem;
-  width: 30%;
 }
 
 #prices .title{
-  padding: 25px;
   font-size: 1.5rem;
   color: black;
   border-radius: .5rem .5rem 0 0;
   background-color:#e9ecef;
 }
 
-#prices .plano-1 .p1{
-  font-weight: 400;
+#prices .p1,
+#prices .p2,
+#prices .p3 {
   color: #8f8f8f;
   font-size: 1rem;
 }
-
-#prices .listas-p1{
-  padding: 0 25px;
-}
-
 
 #prices .plano-2{
   border: 2px solid #dee2e6;
   border-radius: .5rem;
-  width: 30%;
-}
-
-#prices .plano-2 .p2{
-  color: #8f8f8f;
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-#prices .listas-p2{
-  padding: 0 25px;
 }
 
 #prices .plano-3{
   border: 2px solid #dee2e6;
   border-radius: .5rem;
   font-size: 1rem;
-  width: 30%;
-}
-
-#prices .plano-3 .p3{
-  color: #8f8f8f;
-  font-weight: 400;
-}
-
-#prices .listas-p3{
-  padding: 0 25px;
 }
 
 #prices .plan-price p{
-  padding-top: 20px;
   font-weight: 900;
   font-size: 2.5rem;
 }
 
-#prices .fplan-button, #prices .splan-button, #prices .tplan-button {
-  margin: 20px;
-  padding: 10px 22.5px;
-  display: inline-block;
+#prices .fplan-button, 
+#prices .splan-button, 
+#prices .tplan-button {
   font-size: 1.25rem;
   text-align: center;
   border-radius: .5rem;
@@ -274,6 +240,20 @@ header .video-filter {
 }
 #prices .tplan-button:hover {
   background: #565656;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #prices .title{
+    font-size: 1.15rem;
+  }
+  #prices .plan-price p{
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  #prices .fplan-button, #prices .splan-button, #prices .tplan-button {
+    font-size: 1rem;
+  }
 }
 
 /* About Section */

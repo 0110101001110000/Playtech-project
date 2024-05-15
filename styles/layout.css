@@ -226,8 +226,83 @@ header .presentation-video-container video {
 
 /* Prices Section */
 #prices .container {
-  padding: 7vw 15vw;
+  padding: 7% 15%;
   text-align: center;
+}
+
+#prices ul {
+  padding-left: 0;
+}
+
+#prices .p1, 
+#prices .p2, 
+#prices .p3 {
+  margin-top: 15px;
+}
+
+#prices .plano-1, 
+#prices .plano-2,
+#prices .plano-3 { 
+  width: 30%;
+}
+
+#prices .title {
+  padding: 25px;
+}
+
+#prices .listas-p1,
+#prices .listas-p2,
+#prices .listas-p3 {
+  padding: 0 25px;
+}
+
+#prices .plan-price p {
+  margin-top: 20px;
+}
+
+#prices .fplan-button, 
+#prices .splan-button, 
+#prices .tplan-button {
+  margin: 20px;
+  padding: 10px 22.5px;
+  display: inline-block;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #prices .container {
+    padding: 100px 5%;
+    text-align: center;
+    display: block;
+  }
+  #prices .p1, 
+  #prices .p2, 
+  #prices .p3 {
+    margin-top: 10px;
+  }
+  #prices .plano-1, 
+  #prices .plano-2,
+  #prices .plano-3 { 
+    width: 100%;
+  }
+  #prices .plano-2,
+  #prices .plano-3 { 
+    margin-top: 35px;
+  }
+  #prices .listas-p1,
+  #prices .listas-p2,
+  #prices .listas-p3 {
+    padding: 0 15px;
+  }
+  #prices .plan-price p {
+    margin-top: 10px;
+  }
+  #prices .fplan-button, 
+  #prices .splan-button, 
+  #prices .tplan-button {
+    margin: 10px;
+    width: 95%;
+  }
 }
 
 /* About Section */
