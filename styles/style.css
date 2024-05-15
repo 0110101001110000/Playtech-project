@@ -31,7 +31,7 @@ header .title-container a {
   font-family: "Montserrat";
   font-size: 1.5rem;
   font-weight: bold;
-  color: #0BD8FE;
+  color: #0ad3fd;
 }
 
 header .link-container p {
@@ -97,7 +97,7 @@ header .video-filter {
 
 /* Portifolios Section (João Paulo) */
 #portifolios .container {
-  background-color: #0BD8FE;
+  background-color: #0ad3fd;
 }
 
 #portifolios .slides-container {
@@ -305,7 +305,7 @@ header .video-filter {
 
 #testimonials a {
   font-size: 1rem;
-  color: #0BD8FE;
+  color: #0ad3fd;
   transition: .5s;
 }
 #testimonials a:hover {
@@ -363,6 +363,7 @@ header .video-filter {
 /* Footer (Carlos) */
 footer {
   background-color: white;
+  text-align: center;
 }
 
 footer p,
