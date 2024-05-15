@@ -345,29 +345,29 @@ header .presentation-video-container video {
 }
 
 
-/* Testimonials Section (Carlos) */
-#testimonials .container {
+/* Heads Section (Carlos) */
+#heads .container {
   padding: 7% 15%;
   text-align: center;
 }
 
-#testimonials img {
+#heads img {
   width: 128px;
 }
 
-#testimonials h3 {
+#heads h3 {
   margin-top: 25px;
 }
 
-#testimonials p {
+#heads p {
   margin-top: 10px;
 }
 
-#testimonials span {
+#heads span {
   margin-left: 10px;
 }
 
-#testimonials i {
+#heads i {
   margin-right: 5px;
 }
 
@@ -376,16 +376,16 @@ header .presentation-video-container video {
   padding: 7% 15%;
 }
 
-#contact h2 {
-  margin-bottom: 25px;
-}
-
 #contact h3 {
   margin-top: 15px;
 }
 
 #contact p {
   margin-top: 10px;
+}
+
+#contact .mobile-add-text {
+  display: none;
 }
 
 #contact input, #contact textarea {
@@ -398,7 +398,33 @@ header .presentation-video-container video {
 #contact button {
   padding: 10px 22.5px;
   display: inline-block;
-}   
+}  
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #contact .container {
+    padding: 50px 5%;
+    display: block;
+  }
+  #contact .form h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  #contact .phone-text,
+  #contact .email-text,
+  #contact h3,
+  #contact p {
+    display: none;
+  }
+  #contact .mobile-add-text {
+    display: block;
+  }
+  #contact input, #contact textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+}
 
 /* Page Footer ------------------------------------------------------------- */
 
@@ -438,8 +464,7 @@ header .link-container a {
 /* Mobile Screen */
 @media (max-width: 768px) {
   #privacy-policy-main .container {
-    margin: 0 calc(5%);
-    text-align: justify;
+    margin: 0 5%;
   }
 }
 
@@ -466,6 +491,13 @@ header .link-container a {
 #terms-of-usage-main p {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #terms-of-usage-main .container {
+    margin: 0 5%;
+  }
 }
 
 /* Mobile Screen */

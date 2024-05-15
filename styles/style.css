@@ -245,7 +245,7 @@ header .video-filter {
   #prices .title{
     font-size: 1.15rem;
   }
-  #prices .plan-price p{
+  #prices .plan-price h2 {
     font-weight: 900;
     font-size: 1.5rem;
   }
@@ -285,35 +285,35 @@ header .video-filter {
   }
 }
 
-/* Testimonials Section (Carlos) */
-#testimonials .container {
+/* Heads Section (Carlos) */
+#heads .container {
   background-color: white;
 }
 
-#testimonials img {
+#heads img {
   border-radius: 100%;
 }
 
-#testimonials h3 {
+#heads h3 {
   font-size: 1.5rem;
 }
 
-#testimonials p {
+#heads p {
   font-size: 1rem;
   color: #C0C0C0;
 }
 
-#testimonials a {
+#heads a {
   font-size: 1rem;
   color: #0ad3fd;
   transition: .5s;
 }
-#testimonials a:hover {
+#heads a:hover {
   color: #0DA2FB;
 }
 
 /* Contact Section (Carlos) */    
-#contact {
+#contact .container {
   background-color: #4480BA;
 }
 
@@ -355,6 +355,16 @@ header .video-filter {
 }
 #contact button:hover {
   background: #c6c7c8;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  #contact .container {
+    text-align: center;
+  }
+  #contact h2 {
+    font-size: 1.25rem;
+  }
 }
 
 
