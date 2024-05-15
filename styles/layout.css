@@ -7,15 +7,13 @@
   margin: 0;
 }
 
-.sbs {
+.side-by-side {
   display: flex;
-  align-items: center;
   justify-content: space-between; 
 }
 
-.colum{
-  display: flex;
-  justify-content: space-between;
+.v-center {
+  align-items: center;
 }
 
 .spacer {
@@ -131,7 +129,7 @@ header .presentation-video-container video {
 @media (max-width: 768px) {
   #advantages .container {
     display: block;
-    padding: 100px 5%;
+    padding: 50px 5%;
   }
 
   #advantages .margin-top {
@@ -198,7 +196,7 @@ header .presentation-video-container video {
 /* Mobile Screen */
 @media (max-width: 768px) {
   #portifolios .container {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   #portifolios .slides-container {
     width: 100%;
@@ -271,7 +269,7 @@ header .presentation-video-container video {
 /* Mobile Screen */
 @media (max-width: 768px) {
   #prices .container {
-    padding: 100px 5%;
+    padding: 50px 5%;
     text-align: center;
     display: block;
   }
@@ -328,7 +326,7 @@ header .presentation-video-container video {
 
 @media (max-width: 768px) {
   #about .conteiner {
-    padding: 100px 5%;
+    padding: 50px 5%;
     display: block;
   }
   #about .mobile-txt-container {
@@ -350,14 +348,67 @@ header .presentation-video-container video {
   }
 }
 
-/* Testimonials Section */
 
-/* Contact Section */    
+/* Testimonials Section */
+#testimonials {
+  padding: 5rem 10%;
+}
+
+#testimonials .container {
+  padding: 0 10%;
+}
+
+#testimonials .card {
+  max-width: 250px;
+}
+
+#testimonials img {
+  width: 100%;
+}
+
+#testimonials h3 {
+  margin: 1.5rem 0 0 0;
+}
+
+#testimonials p {
+  margin: 1rem 0 0 0;
+}
+
+/* Contact Section */ 
+#contact {
+  padding: 5rem 10%;
+}
+
+#contact .container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 10%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#contact h3 {
+  margin-top: 0;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  padding: 10px 20px;
+}   
 
 
 /* Page Footer ------------------------------------------------------------- */
 
 /* Footer */
+footer {
+  padding: 5rem 10%;
+}
 
 
 /* Privacy Policy Page ----------------------------------------------------- */

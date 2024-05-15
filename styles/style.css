@@ -3,21 +3,21 @@
 /* Global ------------------------------------------------------------------ */
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 900; 
 }
 
 p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
 }
 
 a {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
   text-decoration: none;
   font-weight: 400;
 }
@@ -288,13 +288,115 @@ header .video-filter {
 }
 
 /* Testimonials Section */
+#testimonials {
+  background-color: #4480BA;
+}
+
+#testimonials img {
+  border-radius: .5rem;
+}
+
+#pessoa1, 
+#pessoa2, 
+#pessoa3 {
+  width: 300px;
+  height: 200px;
+}
+
+#testimonials h3 {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: .75px;
+  color: #363636;
+}
+
+#testimonials p {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .25px;
+  color: #C0C0C0;
+}
 
 /* Contact Section */    
+#contact {
+  background-color: #DCDCDC;
+}
+
+#contact .container {
+  display: grid;
+  color: black;
+  font-family: Lato, Arial, sans-serif;
+}
+
+#contact .info-item, #contact .form {
+  border-radius: 5px;
+}
+
+#contact h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: .75px;
+  color: #6b6b6b;
+}
+
+#contact p {
+  font-family: lato, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .25px;
+  color: #878787;
+}
+
+#contact input, #contact textarea {
+  border-radius: 5px;
+}
+
+#contact button {
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: .25px;
+  text-decoration: none;
+  cursor: pointer;
+  border: solid 2px;
+  border-radius: 10px;
+  color: black;
+  border-color: black;
+  transition: .5s;
+}
+#contact button:hover {
+  background-color: black;
+  color: white;
+}
 
 
 /* Page Footer ------------------------------------------------------------- */
 
 /* Footer */
+footer {
+  background-color: #4480BA;
+}
+
+footer p{
+  font-family: Lato, Arial, sans-serif;
+  letter-spacing: .05px;
+  color: 	#DCDCDC;
+  transition: .5s;
+}
+footer p:hover {
+  color: white;
+}
+
+footer a {
+  font-family: Lato, Arial, sans-serif;
+  letter-spacing: .05px;
+  text-decoration: none;
+  color: 	#DCDCDC;
+  transition: .5s;
+}
+footer a:hover {
+  color: white;
+}
 
 
 /* Privacy Policy Page ----------------------------------------------------- */

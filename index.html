@@ -38,8 +38,8 @@
 
         <!-- Navbar -->
         <nav>
-          <div class="sbs nav-container">
-            <div class="sbs">
+          <div class="side-by-side v-center nav-container">
+            <div class="side-by-side v-center">
               <div>
                 <img class="logo" src="assets/logos/logo-white-mode.png" alt="PlayTech-logo">
               </div>
@@ -48,7 +48,7 @@
               </div>
             </div>
             <div class="spacer"></div>
-            <div class="sbs">
+            <div class="side-by-side v-center">
               <div class="link-container">
                 <p id="portifolios-ancor">Portifólio</p>
               </div>
@@ -80,7 +80,7 @@
 
       <!-- Advantages Section -->
       <section id="advantages">
-        <div class="sbs container">
+        <div class="side-by-side v-center container">
           <div>
             <img class="icon" src="assets/icons/automation.png" alt="Image-representing-constant-innovation">
             <h3>Inovação Constante.</h3>
@@ -103,15 +103,15 @@
 
       <!-- Portifolios Section -->
       <section id="portifolios">
-        <div class="sbs container">
+        <div class="side-by-side v-center container">
           <div class="spacer"></div>
           <div>
             <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
           </div>
           <div class="spacer"></div>
           <div class="slider-wrapper">
-            <ul class="sbs slides-container" id="slides-container">
-              <li class="sbs slide">
+            <ul class="side-by-side slides-container" id="slides-container">
+              <li class="side-by-side v-center slide">
                 <div class="mobile-title-container">
                   <h2>Quantum Quest</h2>
                 </div>
@@ -125,7 +125,7 @@
                   </button>
                 </div>
               </li>
-              <li class="sbs slide">
+              <li class="side-by-side v-center slide">
                 <div class="mobile-title-container">
                   <h2>Reinos da Magia</h2>
                 </div>
@@ -139,7 +139,7 @@
                   </button>
                 </div>
               </li>
-              <li class="sbs slide">
+              <li class="side-by-side v-center slide">
                 <div class="mobile-title-container">
                   <h2>Guerra das Máquinas</h2>
                 </div>
@@ -165,7 +165,7 @@
 
       <!-- Prices Section -->
       <section id="prices">
-        <div class="container colum">
+        <div class="container side-by-side">
           
           <!--plano-1-->
           <div class="plano-1">
@@ -259,7 +259,7 @@
 
       <!-- About Section -->
       <section id="about">
-        <div class="conteiner sbs">
+        <div class="side-by-side v-center conteiner">
           <div class="mobile-txt-container">
             <h2 class="txt-h2">Sobre a PlayTech</h2> 
           </div>
@@ -274,15 +274,78 @@
       </section>
 
       <!-- Testimonials Section -->
-      <section></section>
+      <section id="testimonials">
+        <div class="container side-by-side">
+          <div class="card">
+            <img src="assets/images/pessoa1.jpg" id="pessoa1">
+            <figcaption>
+              <h3>João Paulo</h3> 
+              <p>"Trabalho como desenvolvedor front-end, garantindo que cada site seja responsivo e fácil de usar em qualquer dispositivo."</p>
+            </figcaption>
+          </div>
+          <div class="spacer"></div>
+          <div class="card">
+            <img src="assets/images/pessoa2.jpg" id="pessoa2">
+            <figcaption>
+              <h3>Matheus Gabriel</h3>
+              <p>"desenvolvedor front-end, meu foco está em criar designs impactantes e interfaces intuitivas."</p>
+            </figcaption>
+          </div>
+          <div class="spacer"></div>
+          <div class="card">
+            <img src="assets/images/pessoa3.jpg" id="pessoa3">
+            <figcaption>
+              <h3>Carlos Kayky</h3>
+              <p>"Como desenvolvedor front-end, meu objetivo é garantir que cada projeto tenha um desempenho excepcional."</p>
+            </figcaption>
+          </div>
+        </div>
+      </section>
 
       <!-- Contact Section -->
-      <section></section>
+      <section id="contact">
+        <div class="container">
+          <div class="info-item">
+              <h3>Endereço</h3>
+              <p>Playtech Digital Innovations</p>
+              <p>Avenida das Nações Unidas, 1234</p>
+              <p>Estado XY, Cidade Fantástica</p>
+              <p>País Mágico, Código Postal 12345</p>
+              <h3>Telefone</h3>
+              <p>+1 (555) 555-5555</p>
+              <h3>E-mail</h3>
+              <p>contacto@playtech.com</p>
+          </div>
+          <div class="form">
+              <h3>Mande uma mensagem</h3>
+              <form action="#" method="POST">
+                  <input type="text" name="nome" placeholder="Seu nome" required>
+                  <input type="email" name="email" placeholder="Seu e-mail" required>
+                  <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                  <button type="submit">Enviar Mensagem</button>
+              </form>
+          </div>
+        </div>
+      </section>
 
     </main>
-    
-    <!-- Page Footer -->
-    <footer></footer>
+
+    <!-- Footer Content -->
+    <footer>
+      <div class="footer-container side-by-side">
+        <div class="link">
+          <a href="#">Política de Privacidade</a>
+        </div>
+        <div class="spacer"></div>
+        <div class="link">
+          <a href="#">Termos de Uso</a>
+        </div>
+        <div class="spacer"></div>
+        <div>
+          <p>© PlayTech - All Copyrights</p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="scripts/index.js"></script>
