@@ -371,6 +371,21 @@ header .presentation-video-container video {
   margin-right: 5px;
 }
 
+/* Mobile Screen (Matheus) */
+@media (max-width: 768px) {
+  #heads .container {
+    padding: 50px 5%;
+    display: block;
+  }
+  #heads .head-2-image,
+  #heads .head-3-image {
+    margin-top: 35px;
+  }
+  #heads h3 {
+    font-size: 1.15rem; 
+  }
+}
+
 /* Contact Section (Carlos) */ 
 #contact .container {
   padding: 7% 15%;
@@ -407,8 +422,8 @@ header .presentation-video-container video {
     display: block;
   }
   #contact .form h2 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 5px;
   }
   #contact .phone-text,
   #contact .email-text,
@@ -422,15 +437,35 @@ header .presentation-video-container video {
   #contact input, #contact textarea {
     width: calc(100% - 12px);
     padding: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
+  #contact button {
+    margin-top: 10px;
+    padding: 5px 11.25px;
+    display: inline-block;
+  } 
 }
 
 /* Page Footer ------------------------------------------------------------- */
 
 /* Footer (Carlos) */
-footer {
+footer .footer-container {
   padding: 7% 10%;
+}
+
+/* Mobile Screen (Matheus) */
+@media (max-width: 768px) {
+  footer .footer-container {
+    font-size: .75rem;
+    padding: 50px 5%;
+  }
+  footer .desktop-title {
+    display: none;
+  }
+  footer .mobile-title {
+    display: block;
+  }
 }
 
 

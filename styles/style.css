@@ -313,45 +313,11 @@ header .video-filter {
 }
 
 /* Mobile Screen (Matheus) */
+/* Mobile Screen (Matheus) */
 @media (max-width: 768px) {
-  #heads .card img{
-    width: 100px;
-    padding:12px;
-
+  #heads h3 {
+    font-size: 1.15rem; 
   }
-
-  #heads .side-by-side{
-    flex-direction: column;
-  }
-
-  #heads .side-by-side a{
-    margin-bottom: 15px;
-  }
-
-  #heads .card a{
-    align-items: center;
-    display: block;
-    flex-direction: column;
-    margin-top: -15px;
-  }
-
-  #heads .card h3{
-    margin-top: 0%;
-    font-size: 18px; 
-  }
-
-  #heads .card p{
-    padding: 2px;
-    padding-bottom: 15px;
-    text-align: center;
-    font-size: 18px;
-  }
-
-  #heads  .card .fa-arrow-up-right-from-square {
-    padding-top: 20px;
-    text-align: justify;
-  }
-
 }
 
 /* Contact Section (Carlos) */    
@@ -407,13 +373,16 @@ header .video-filter {
   #contact h2 {
     font-size: 1.25rem;
   }
+  #contact button {
+    font-weight: normal;
+  }
 }
 
 
 /* Page Footer ------------------------------------------------------------- */
 
 /* Footer (Carlos) */
-footer {
+footer .footer-container {
   background-color: white;
   text-align: center;
 }
@@ -429,25 +398,10 @@ footer a:hover {
   color: #363636;
 }
 
-/* Mobile Screen (Matheus) */
-@media (max-width: 768px) {
-  .footer-container .link .privacy{
-    font-size: 14px;
-    display: block;
-    float: left;
-  }
-  .footer-container .link .termos-de-uso{
-    display: block;
-    align-items: center;
-    margin-right: -10px;
-    font-size: 14px;
-  }
-  .footer-container p{
-    display: block;
-    margin-left: 50px;
-    font-size: 14px;
-  }
+footer .mobile-title {
+  display: none;
 }
+
 
 /* Privacy Policy Page ----------------------------------------------------- */
 
