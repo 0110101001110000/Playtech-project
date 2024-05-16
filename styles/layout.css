@@ -164,6 +164,10 @@ header .presentation-video-container video {
   flex: 1 0 100%;
 }
 
+#portifolios img {
+  width: 23.33vw;
+}
+
 #portifolios .slide-arrow {
   width: 2rem;
   height: 4rem;
@@ -308,7 +312,7 @@ header .presentation-video-container video {
 }
 
 #about .img-container img {
-  width: 512px;
+  width: 23.33vw;
 }
 
 #about .txt-PlayTech {
