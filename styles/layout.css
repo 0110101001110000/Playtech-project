@@ -25,7 +25,7 @@
 
 /* Navbar (João Paulo) */
 header .nav-container {
-  padding: 20px 5%;
+  padding: 25px 5%;
 }
 
 header .logo {
@@ -454,10 +454,13 @@ footer .footer-container {
   padding: 7% 10%;
 }
 
+footer .mobile-title {
+  display: none;
+}
+
 /* Mobile Screen (Matheus) */
 @media (max-width: 768px) {
   footer .footer-container {
-    font-size: .75rem;
     padding: 50px 5%;
   }
   footer .desktop-title {
@@ -496,6 +499,11 @@ header .link-container a {
   font-size: 1rem;
 }
 
+#privacy-policy-footer .footer-container {
+  margin-top: 3rem;
+  padding: 3rem 5%;
+}
+
 /* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #privacy-policy-main .container {
@@ -526,6 +534,11 @@ header .link-container a {
 #terms-of-usage-main p {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+#terms-of-usage-footer .footer-container {
+  margin-top: 3rem;
+  padding: 3rem 5%;
 }
 
 /* Mobile Screen (João Paulo) */
