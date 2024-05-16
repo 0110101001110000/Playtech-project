@@ -48,7 +48,7 @@ header .link-container p, header .link-container a {
   padding: 8px;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   header .nav-container {
     padding: 10px 5%;
@@ -120,7 +120,7 @@ header .presentation-video-container video {
   margin-top: 10px;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #advantages .container {
     display: block;
@@ -188,7 +188,7 @@ header .presentation-video-container video {
   display: inline-block;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #portifolios .container {
     padding: 50px 0;
@@ -261,7 +261,7 @@ header .presentation-video-container video {
   display: inline-block;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #prices .container {
     padding: 50px 5%;
@@ -319,7 +319,7 @@ header .presentation-video-container video {
   margin: 25px 0 0;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #about .conteiner {
     padding: 50px 5%;
@@ -400,7 +400,7 @@ header .presentation-video-container video {
   display: inline-block;
 }  
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #contact .container {
     padding: 50px 5%;
@@ -461,7 +461,7 @@ header .link-container a {
   font-size: 1rem;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #privacy-policy-main .container {
     margin: 0 5%;
@@ -493,7 +493,7 @@ header .link-container a {
   font-size: 1rem;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #terms-of-usage-main .container {
     margin: 0 5%;

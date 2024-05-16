@@ -56,7 +56,7 @@ header .link-container a:hover {
   color: #363636;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   header .title-container a {
     font-size: 1rem;
@@ -88,7 +88,7 @@ header .video-filter {
   color: #8f8f8f;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #advantages h3 {
     font-size: 1.15rem;
@@ -148,7 +148,7 @@ header .video-filter {
   background: #c6c7c8;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #portifolios .mobile-title-container {
     font-size: 1.25rem;
@@ -240,7 +240,7 @@ header .video-filter {
   background: #565656;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #prices .title{
     font-size: 1.15rem;
@@ -274,7 +274,7 @@ header .video-filter {
   font-size: 1.5rem;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #about  .mobile-txt-container {
     font-size: 1.25rem;
@@ -310,6 +310,48 @@ header .video-filter {
 }
 #heads a:hover {
   color: #0DA2FB;
+}
+
+/* Mobile Screen (Matheus) */
+@media (max-width: 768px) {
+  #heads .card img{
+    width: 100px;
+    padding:12px;
+
+  }
+
+  #heads .side-by-side{
+    flex-direction: column;
+  }
+
+  #heads .side-by-side a{
+    margin-bottom: 15px;
+  }
+
+  #heads .card a{
+    align-items: center;
+    display: block;
+    flex-direction: column;
+    margin-top: -15px;
+  }
+
+  #heads .card h3{
+    margin-top: 0%;
+    font-size: 18px; 
+  }
+
+  #heads .card p{
+    padding: 2px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #heads  .card .fa-arrow-up-right-from-square {
+    padding-top: 20px;
+    text-align: justify;
+  }
+
 }
 
 /* Contact Section (Carlos) */    
@@ -357,7 +399,7 @@ header .video-filter {
   background: #c6c7c8;
 }
 
-/* Mobile Screen */
+/* Mobile Screen (João Paulo) */
 @media (max-width: 768px) {
   #contact .container {
     text-align: center;
@@ -387,6 +429,25 @@ footer a:hover {
   color: #363636;
 }
 
+/* Mobile Screen (Matheus) */
+@media (max-width: 768px) {
+  .footer-container .link .privacy{
+    font-size: 14px;
+    display: block;
+    float: left;
+  }
+  .footer-container .link .termos-de-uso{
+    display: block;
+    align-items: center;
+    margin-right: -10px;
+    font-size: 14px;
+  }
+  .footer-container p{
+    display: block;
+    margin-left: 50px;
+    font-size: 14px;
+  }
+}
 
 /* Privacy Policy Page ----------------------------------------------------- */
 
