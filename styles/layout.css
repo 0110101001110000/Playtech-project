@@ -585,6 +585,10 @@ header .link-container a {
   display: inline-block;
 }
 
+#plan-form-main .disabled {
+  display: none;
+}
+
 
 /* Mobile Screen */
 @media (max-width: 768px) {

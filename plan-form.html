@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <!-- Page Title -->
-    <title>Política de Privacidade | PlayTech</title>
+    <title>Formulário | PlayTech</title>
 
   </head>
 
@@ -67,23 +67,23 @@
     <!-- Page Main -->
     <main id="plan-form-main">
       <div class="container">
-        <h1>Formulário de Pedido Personalizado</h1>
+        <h1 id="titlee">Formulário de Pedido Personalizado</h1>
         <p class="title-text">Por favor, preencha o formulário abaixo para calcular um orçamento inicial para os serviços da Playtech:</p>
         <form>
           <h2>Informações de Contato:</h2>
-          <input id="plan-form-name" type="text" name="nome" placeholder="Seu nome" title="Seu nome">
+          <input id="plan-form-name" type="text" name="name" placeholder="Seu nome" title="Seu nome">
           <input id="plan-form-email" type="email" name="email" placeholder="Seu e-mail" title="Seu e-mail">
           <h2>Detalhes do Pedido:</h2>
-          <textarea name="mensagem" placeholder="Descreva brevemente seu projeto ou requisitos específicos" title="Descreva brevemente seu projeto ou requisitos específicos"></textarea>
-          <textarea name="mensagem" placeholder="Quais são seus objetivos principais com este projeto?" title="Quais são seus objetivos principais com este projeto?"></textarea>
-          <textarea name="mensagem" placeholder="Quais recursos ou funcionalidades específicas você gostaria de incluir?" title="Quais recursos ou funcionalidades específicas você gostaria de incluir?"></textarea>
-          <textarea name="mensagem" placeholder="Você tem alguma preferência de design ou estilo para o projeto?" title="Você tem alguma preferência de design ou estilo para o projeto?"></textarea>
-          <textarea name="mensagem" placeholder="Qual é o prazo esperado para a conclusão deste projeto?" title="Qual é o prazo esperado para a conclusão deste projeto?"></textarea>
-          <textarea name="mensagem" placeholder="Você precisa de serviços adicionais, como treinamento, consultoria ou suporte contínuo?" title="Você precisa de serviços adicionais, como treinamento, consultoria ou suporte contínuo?"></textarea>
-          <button id="plan-form-submit-button">Enviar Mensagem</button>
+          <textarea class="message" name="mensagem" placeholder="Descreva brevemente seu projeto ou requisitos específicos" title="Descreva brevemente seu projeto ou requisitos específicos"></textarea>
+          <textarea class="message" name="mensagem" placeholder="Quais são seus objetivos principais com este projeto?" title="Quais são seus objetivos principais com este projeto?"></textarea>
+          <textarea class="message" name="mensagem" placeholder="Quais recursos ou funcionalidades específicas você gostaria de incluir?" title="Quais recursos ou funcionalidades específicas você gostaria de incluir?"></textarea>
+          <textarea class="message" name="mensagem" placeholder="Você tem alguma preferência de design ou estilo para o projeto?" title="Você tem alguma preferência de design ou estilo para o projeto?"></textarea>
+          <textarea class="message" name="mensagem" placeholder="Qual é o prazo esperado para a conclusão deste projeto?" title="Qual é o prazo esperado para a conclusão deste projeto?"></textarea>
+          <textarea class="message" name="mensagem" placeholder="Você precisa de serviços adicionais, como treinamento, consultoria ou suporte contínuo?" title="Você precisa de serviços adicionais, como treinamento, consultoria ou suporte contínuo?"></textarea>
+          <button type="button" id="plan-form-submit-button">Enviar Mensagem</button>
         </form>
-        <h2>Orçamento Inicial:</h2>
-        <p class="subtitle-text">Com base nas informações fornecidas, estimamos o custo inicial para o seu projeto em: [Inserir valor aqui]</p>
+        <h2 class="disabled">Orçamento Inicial:</h2>
+        <p class="subtitle-text disabled">Com base nas informações fornecidas, estimamos o custo inicial para o seu projeto em: <span id="project-estimated-price-text">??/mo</span>.</p>
       </div>
     </main>
   </body>
