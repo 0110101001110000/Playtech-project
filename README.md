@@ -33,8 +33,14 @@ cd Playtech-project
 
 Once you're inside the project directory, you can run the website using the following command:
 
+- Linux:
 ```bash
 open index.html
+```
+
+- Windows:
+```bash
+start index.html
 ```
 
 This will open the index.html in your default browser.
