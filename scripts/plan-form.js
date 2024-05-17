@@ -84,7 +84,7 @@ submit_button_element.addEventListener("click", (event) => {
     if (warning_count == 0) {
         enableElements(project_estimated_price_elements);
         const project_estimated_price = calculate(input_element_values); 
-        project_estimated_price_text_element.innerText = "R$:" + String(project_estimated_price) + "/mo";
+        project_estimated_price_text_element.innerText = "R$:" + String(project_estimated_price) + ",00/mo";
         warning_count = 0;
     } else {
         disableElements(project_estimated_price_elements);
