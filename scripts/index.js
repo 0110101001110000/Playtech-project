@@ -75,3 +75,16 @@ window.addEventListener("resize", (event) => {
   const slide_width = slide.clientWidth;
   slides_container.scrollLeft -= (slide_width * 3);
 });
+
+
+/* Plan Button Functionality -------------- */
+
+// Get button element
+const plan_button = document.getElementById("pers-plan");
+
+// Add click event on button
+plan_button.addEventListener("click", (event) => {
+  
+  // Go to plan page when click
+  window.location.href = "plan-form.html";
+});

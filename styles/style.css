@@ -432,3 +432,28 @@ footer a:hover {
 #terms-of-usage-main h2 {
   font-weight: bold;
 }
+
+
+/* Plan Form Page ----------------------------------------------------- */
+
+/* Main (João Paulo) */
+#plan-form-main input,
+#plan-form-main textarea {
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+}
+
+#plan-form-main button {
+  font-size: 1rem;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: #363636;
+  transition: .5s;
+}
+#plan-form-main button:hover {
+  background: #565656;
+}

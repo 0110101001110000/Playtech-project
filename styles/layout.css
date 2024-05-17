@@ -552,6 +552,40 @@ header .link-container a {
   }
 }
 
+
+/* Plan Form Page ----------------------------------------------------- */
+
+/* Main (João Paulo) */
+#plan-form-main .container {
+  padding: 7% 15%;
+}
+
+#plan-form-main .title-text {
+  margin-top: 10px;
+}
+
+#plan-form-main .subtitle-text {
+  margin-top: 10px;
+}
+
+#plan-form-main h2 {
+  margin-top: 25px;
+}
+
+#plan-form-main input,
+#plan-form-main textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+#plan-form-main button {
+  margin-top: 10px;
+  padding: 10px 22.5px;
+  display: inline-block;
+}
+
+
 /* Mobile Screen */
 @media (max-width: 768px) {
 
